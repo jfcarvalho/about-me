@@ -10,6 +10,17 @@
         
     </ul>
 
+    <div>
+
+            <ul class="list-group list-group-flush">
+                    <li class="list-group-item" *ngFor="let skill of skills">
+                        <small> {{skill.language}} </small>  <mat-progress-bar mode="determinate" value={{skill.level}}></mat-progress-bar>
+                    </li>
+                    
+            </ul>
+    
+    </div>
+
 </div>
 
     <div class="col-7 text-justify">Hi, I'm Jean Carvalho, a Software Developer from Brazil (State of Bahia). I've been working with software development for 4+ years and I'm currently working as Systems Analyst at Capgemini (a Software Factory Company) and a self employed Fullstack (Java/PHP/Angular/Javascript/HTML/CSS) developer in free times. You can check my work experience below:  
@@ -18,6 +29,7 @@
         <div class="text-justify"><small><b>{{company.position}}</b></small></div>
         <div class="text-justify"><ul><li *ngFor="let activity of company.activities"><small>{{activity}}</small></li></ul></div> 
     </div>
+
 
 </div>
 </div>

@@ -31,39 +31,80 @@ export class AboutComponent implements OnInit {
 
             ];
 
-socialMedia: any[] = [
-{
-  'iname' : 'certificates',
-  'icon' : 'assets/img/certificates.jpg',
-  'link' : 'https://drive.google.com/drive/folders/0ByVFvHfrhC5XWmNkZnl1WUt5aGM?usp=sharing',
-},
-{
-  'iname' : 'facebook',
-  'icon' : 'assets/img/fb.png',
-  'link' : 'https://www.facebook.com/jean.carvalho.37',
-},
-{
-  'iname' : 'linkedin',
-  'icon' : 'assets/img/linkedin.png',
-  'link' : 'https://www.linkedin.com/in/jean-carvalho-a5b6b544/',
-},
-{
-  'iname' : 'overleaf',
-  'icon' : 'assets/img/resume.png',
-  'link' : 'https://pt.overleaf.com/read/szzzkwwbmvjx',
-},
-{
-  'iname' : 'github',
-  'icon' : 'assets/img/github.png',
-  'link' : 'http://github.com/jfcarvalho',
-},
-];
+  socialMedia: any[] = [
+  {
+    'iname' : 'certificates',
+    'icon' : 'assets/img/certificates.jpg',
+    'link' : 'https://drive.google.com/drive/folders/0ByVFvHfrhC5XWmNkZnl1WUt5aGM?usp=sharing',
+  },
+  {
+    'iname' : 'facebook',
+    'icon' : 'assets/img/fb.png',
+    'link' : 'https://www.facebook.com/jean.carvalho.37',
+  },
+  {
+    'iname' : 'linkedin',
+    'icon' : 'assets/img/linkedin.png',
+    'link' : 'https://www.linkedin.com/in/jean-carvalho-a5b6b544/',
+  },
+  {
+    'iname' : 'overleaf',
+    'icon' : 'assets/img/resume.png',
+    'link' : 'https://pt.overleaf.com/read/szzzkwwbmvjx',
+  },
+  {
+    'iname' : 'github',
+    'icon' : 'assets/img/github.png',
+    'link' : 'http://github.com/jfcarvalho',
+  },
+  ];
 
-myOptionsTP = {
-  'placement': 'left',
-  'show-delay': 500
-}
-          
+  myOptionsTP = {
+    'placement': 'left',
+    'show-delay': 500
+  }
+
+  skills: any[] = [
+    {
+      'language' : 'Java',
+      'level' : '90',
+    },
+    {
+      'language' : 'HTML/CSS/JS',
+      'level' : '90',
+    },
+    {
+      'language' : 'PHP',
+      'level' : '90',
+    },
+  
+    {
+      'language' : 'SQL',
+      'level' : '80',
+
+    },
+    {
+      'language' : 'R',
+      'level' : '80',
+
+    },
+    {
+      'language' : 'Ruby',
+      'level' : '70',
+    },
+    {
+      'language' : 'Angular',
+      'level' : '40',
+    },
+
+
+
+
+ 
+  
+    ];
+
+            
   constructor() { }
 
   ngOnInit() {
