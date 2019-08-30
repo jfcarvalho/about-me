@@ -70,11 +70,11 @@ export class AboutComponent implements OnInit {
       'level' : '90',
     },
     {
-      'language' : 'HTML/CSS/JS',
+      'language' : 'PHP',
       'level' : '90',
     },
     {
-      'language' : 'PHP',
+      'language' : 'HTML/CSS/JS',
       'level' : '90',
     },
   
@@ -96,13 +96,145 @@ export class AboutComponent implements OnInit {
       'language' : 'Angular',
       'level' : '40',
     },
+    {
+      'language' : 'C#',
+      'level' : '30',
+    },
+  ];
+    frameworks: any[] =[
+      {
+        'framework' : 'Spring MVC',
+        'tooltip' : 'Spring MVC',
+        'icon': 'spring.png',
+        'width' : '200',
+        'height' :'80',
+      },
+      {
+        'framework' : 'JSF',
+        'tooltip' : 'JSF',
+        'icon': 'jsf-logo.png',
+        'width' : '150',
+        'height' :'80',
+      },
+      {
+        'framework' : 'Hibernate',
+        'tooltip' : 'Hibernate',
+        'icon': 'hibernate.png',
+        'width' : '160',
+        'height' :'100',
+      },
+      {
+        'framework' : 'Primefaces',
+        'tooltip' : 'Primefaces',
+        'icon': 'primefaces.png',
+        'width' : '200',
+        'height' :'80',
+      },
+      {
+        'framework' : 'Thymeleaf',
+        'tooltip' : 'Thymeleaf',
+        'icon': 'thymeleaf.png',
+        'width' : '100',
+        'height' :'100',
+      },
+      {
+        'framework' : 'Bootstrap',
+        'tooltip' : 'Bootstrap',
+        'icon': 'bootstrap.png',
+        'width' : '100',
+        'height' :'100',
+      },
+      {
+        'framework' : 'BPMN',
+        'tooltip' : 'BPMN',
+        'icon': 'bpmn.jpg',
+        'width' : '130',
+        'height' :'110',
+      },
+      {
+        'framework' : 'Angular',
+        'tooltip' : 'Angular',
+        'icon': 'angular.png',
+        'width' : '130',
+        'height' :'110',
+      },
+      {
+        'framework' : 'JBOSS',
+        'tooltip' : 'JBOSS',
+        'icon': 'jboss.jpg',
+        'width' : '150',
+        'height' :'100',
+      },
+      {
+        'framework' : 'Rails',
+        'tooltip' : 'Rails',
+        'icon': 'rails.png',
+        'width' : '100',
+        'height' :'100',
+      },
+      {
+        'framework' : 'jUnit',
+        'tooltip' : 'jUnit',
+        'icon': 'junit.png',
+        'width' : '150',
+        'height' :'150',
+      },
+      {
+        'framework' : 'Mockito',
+        'tooltip' : 'Mockito',
+        'icon': 'mockito.png',
+        'width' : '150',
+        'height' :'100',
+      },
+      {
+        'framework' : 'Latex',
+        'tooltip' : 'Latex',
+        'icon': 'latex.jpg',
+        'width' : '150',
+        'height' :'50',
+      },
+      {
+        'framework' : 'Oracle',
+        'tooltip' : 'Oracle',
+        'icon': 'oracle.png',
+        'width' : '150',
+        'height' :'80',
+      },
+      {
+        'framework' : 'Mysql',
+        'tooltip' : 'Mysql',
+        'icon': 'mysql.png',
+        'width' : '150',
+        'height' :'80',
+      },
+      {
+        'framework' : 'RStudio',
+        'tooltip' : 'Rstudio',
+        'icon': 'rstudio.png',
+        'width' : '100',
+        'height' :'100',
+      },
+      {
+        'framework' : 'SQLServer',
+        'tooltip' : 'SQLServer',
+        'icon': 'sqlserver.png',
+        'width' : '120',
+        'height' :'100',
+      },
+      {
+        'framework' : 'UML',
+        'tooltip' : 'UML',
+        'icon': 'uml.png',
+        'width' : '200',
+        'height' :'200',
+      },
 
-
+    ];
 
 
  
   
-    ];
+ 
 
             
   constructor() { }
